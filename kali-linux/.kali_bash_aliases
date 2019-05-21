@@ -1,0 +1,19 @@
+# Proyecto Usa-Mi-Alias
+
+# Archivo .kali_bash_aliases v0.1
+# Para usarlo tan solo elimina la secciòn "kali_" del nombre de archivo.
+
+# Considerando que es para Kali Linux, se asume que estàs en el usuario root.
+# Por lo que no es necesario incluir sudo antes de cada comando.
+
+# Para actualizar el sistema por completo, sin confirmaciòn adicional.
+alias alDiaYa='apt-get update -y && apt-get upgrade -y && apt-get dist-upgrade -y && apt-get autoremove -y && apt-get autoclean -y'
+
+# Para actualizar el sistema por completo, requiriendo acciòn de confirmaciòn.
+alias alDia='apt-get update && apt-get upgrade && apt-get dist-upgrade && apt-get autoremove && apt-get autoclean'
+
+# Para instalar un programa, sin confirmaciòn adicional.
+alias instalarYa='apt-get install -y'
+
+# Para instalar un programa, requiriendo acciòn de confirmaciòn.
+alias instalarYa='apt-get install'
